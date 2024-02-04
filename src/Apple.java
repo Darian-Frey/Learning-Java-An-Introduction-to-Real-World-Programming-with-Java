@@ -2,6 +2,11 @@ class Apple {
     float mass;
     float diameter = 1.0f;
     int x, y;
+    static float gravAccel = 9.8f;
+
+    float getWeight() {
+        return mass * gravAccel;
+    }
 
     public void printDetails() {
         System.out.println(" mass: " + mass);
