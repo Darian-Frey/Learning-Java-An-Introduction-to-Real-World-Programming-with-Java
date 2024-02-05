@@ -1,5 +1,5 @@
 public class PrintAppleDetails2 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Apple a1 = new Apple();
         System.out.println("Apple a1:");
         System.out.println(" mass: " + a1.mass);

@@ -1,5 +1,5 @@
 public class PrintAppleDetails4 {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Field f = new Field();
         f.setupApples();
         System.out.println("Apple a1:");
